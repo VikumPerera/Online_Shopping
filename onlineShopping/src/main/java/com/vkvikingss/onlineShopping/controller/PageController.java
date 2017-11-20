@@ -11,6 +11,7 @@ public class PageController {
 	public ModelAndView index(){
 		ModelAndView mv=new ModelAndView("page");
 		mv.addObject("greeting","Welcome to Spring MVC");
+		
 		return mv;
 	}
 	@RequestMapping(value={"test"})
