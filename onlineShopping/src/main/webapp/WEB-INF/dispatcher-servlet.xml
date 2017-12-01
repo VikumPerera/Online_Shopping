@@ -10,6 +10,8 @@
    http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd">
    
    <context:component-scan base-package="com.vkvikingss.onlineShopping.controller"></context:component-scan>
+   <context:component-scan base-package="com.vkvikingss.shoppingBackend.daoimpl"></context:component-scan>
+   
    <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
    	<property name="prefix" value="/WEB-INF/views/"></property>
    	<property name="suffix" value=".jsp"></property>

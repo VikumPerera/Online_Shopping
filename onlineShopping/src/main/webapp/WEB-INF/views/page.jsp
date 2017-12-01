@@ -66,8 +66,8 @@ hr {
 			</c:if>
 
 			<!-- display when clicked Products -->
-			<c:if test="${userClickProducts==true}">
-				<%@include file="products.jsp"%>
+			<c:if test="${userClickCategoryProducts==true or userClickAllProducts==true}">
+				<%@include file="listOfItems.jsp"%>
 			</c:if>
 
 			<!-- display when clicked Contact -->
